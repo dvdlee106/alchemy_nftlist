@@ -1,0 +1,31 @@
+.container {
+  padding: 14px 56px;
+    background: #C42521;
+    width: 100%;
+}
+.searchBox {
+  max-width: 1168px;
+  width: 100%;
+  padding: 0 16px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 5.57802px;
+}
+.searchBox input {
+  width: 100%;
+  margin-left: 9px;
+  border: none;
+  outline: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 36px;
+  letter-spacing: 0.411765px;
+  color: black;
+}
+.searchBox input::placeholder {
+  color: #676767;
+}
